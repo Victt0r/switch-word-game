@@ -6,18 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
-    .highlight {
+    .highlight, .selected {
       background: yellow
     }
     textarea {
-      margin: auto;
+      margin: 0 auto 25px;
       display: block;
+
+    }
+    #istealth {
+      background: yellow;
+      position: absolute;
+      display: none;
     }
   </style>
 </head>
 <body>
   <textarea id=ta rows=8 cols=51>
-   We need women
+    Man, I see in Fight Club the strongest and smartest men who've ever lived. I see all this potential, and I see it squandered. God damn it, an entire generation pumping gas, waiting tables – slaves with white collars. Advertising has us chasing cars and clothes, working jobs we hate so we can buy shit we don't need. We're the middle children of history, man. No purpose or place. We have no Great War. No Great Depression. Our great war is a spiritual war. Our great depression is our lives. We've all been raised on television to believe that one day we'd all be millionaires, and movie gods, and rock stars, but we won't. We're slowly learning that fact. And we're very, very pissed off.
   </textarea>
 
   <p id=p>
@@ -25,6 +31,7 @@
     <span>need</span>
     <span>women</span> -->
   </p>
+  <input id=istealth>
   <script src=script.js> </script>
 </body>
 </html>
